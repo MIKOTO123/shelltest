@@ -24,3 +24,7 @@ for word in ${words}; do
 	    echo ${word}
 done
 
+
+
+echo ${#array[*]}   #输出数组个数
+echo ${#array[@]}   #输出数组个数
